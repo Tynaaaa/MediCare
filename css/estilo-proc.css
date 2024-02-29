@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f1f1f1;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+button{
+    color: white;
+    background-color:#adacac;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+button:hover{
+    color: #0e6159;
+    background-color: white;
+}
+
+#conteiner{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #adacac;
+    background-color: #127369;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+}
